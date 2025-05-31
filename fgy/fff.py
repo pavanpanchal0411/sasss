@@ -11,7 +11,7 @@ from PIL import Image
 # Load the CSV file
 @st.cache_data
 def load_data():
-    return pd.read_csv('sasss/blob/main/fgy/Book_Dataset_1.csv')
+    return pd.read_csv("Book_Dataset_1.csv")
 
 df = load_data()
 
